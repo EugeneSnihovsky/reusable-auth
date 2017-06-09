@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./lib",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "rootDir": "./lib",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "types": []
+  }
+}

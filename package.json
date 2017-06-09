@@ -1,0 +1,31 @@
+{
+  "name": "_ng-reusable-auth",
+  "version": "2.0.0",
+  "scripts": {
+    "prepare": "gulp prepublish-build",
+    "publish": "npm run prepare && npm publish dist"
+  },
+  "devDependencies": {
+    "@agiliumlabs/express-microservice-build": "latest",
+    "@angular/common": "~2.4.10",
+    "@angular/compiler": "~2.4.10",
+    "@angular/compiler-cli": "~2.4.10",
+    "@angular/core": "~2.4.10",
+    "@angular/platform-browser": "~2.4.10",
+    "@angular/platform-browser-dynamic": "~2.4.10",
+    "@angular/forms": "~2.4.10",
+    "@angular/router": "~3.4.10",
+    "@types/core-js": "0.9.36",
+    "core-js": "~2.4.1",
+    "gulp": "~3.9.1",
+    "rxjs": "~5.1.0",
+    "typescript": "2.3.2",
+    "zone.js": "~0.7.8"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "@agiliumlabs/ng2-notify": "^2.0.0"
+  }
+}
